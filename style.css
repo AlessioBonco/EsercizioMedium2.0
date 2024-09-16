@@ -1,0 +1,257 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    align-items: baseline;
+    margin-top: 10px;
+}
+.title{
+    font-size: 0.9cm;
+    margin-left: 20px;
+    font-family: inherit;
+
+}
+.barra {
+background-color: rgb(249, 249, 249);
+border-radius: 20px;
+width: 215px;
+margin-left: 30px;
+padding: 0.5rem;
+font-family: "Roboto", sans-serif;
+color: rgb(100, 99, 99);
+}
+.write {
+margin-left: 820px;
+word-spacing: 0.2cm;
+font-size: 20px;
+color: rgb(100, 99, 99);
+font-family: Arial, Helvetica, sans-serif;
+}
+.user {
+    margin-left: 40px;
+    word-spacing: 1cm;
+    font-size: 20px;
+    color: rgb(100, 99, 99);
+}
+.search {
+margin-left: 8px;
+font-size: 50px;
+
+}
+.cerca {
+    font-size: 15px;
+    margin-left: 8px;
+    font-family: "Roboto", sans-serif;
+}
+main {
+border-top: solid rgb(241, 232, 232);
+margin-top: 10px;
+}
+.mega-container {
+    display: flex;
+}
+.primo-div {
+margin-left: 160px;
+margin-top: 30px;
+width: 700px;
+}
+.per-te {
+    display: flex;
+gap: 30px;
+  align-items: baseline;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  height: 40px;
+margin-top: 10px;
+color: rgb(100, 99, 99);
+border-bottom: solid rgb(241, 232, 232);
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.utenti {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+gap: 0px 10px ;
+    
+}
+.utenti img {
+width: 20px;
+height: 20px;
+border-radius: 50%;
+}
+.card {
+border-bottom: solid rgb(241, 232, 232);
+margin-top: 20px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.subtitle-card {
+    color: rgb(100, 99, 99); 
+}
+.titolino  {
+font-size: 0.7cm;
+margin-top: 0;
+margin-bottom: 0;
+}
+.titolo-immagine {
+    display: flex;
+}
+.titolo-immagine img {
+    width: 150px;
+  height: 120px;
+  margin-left: 75px;
+}
+.reazioni {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    
+}
+.container-reazioni {
+    display: flex;
+    gap: 150px;
+    color: rgb(100, 99, 99);
+}
+.reazioni2 {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.secondo-div {
+    margin-top: 0px;
+   margin-left: 70px;
+    border-left: solid rgb(241, 232, 232);
+
+    
+}
+
+.staff {
+    font-family: Arial, Helvetica, sans-serif;
+ margin-top: 30px;
+ margin-left: 50px;
+ position: sticky;
+ top: 10px;
+}
+.utenti2 {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+gap: 0px 10px ;
+}
+.utenti2 img {
+    width: 20px;
+height: 20px;
+border-radius: 50%;
+}
+
+.utenti2 p {
+font-size: 15px;
+}
+.news {
+    display: flex;
+    align-items: baseline;
+    margin-top: 25px;
+}
+.link {
+    color: rgb(157, 125, 95);
+    margin-top: 15px;
+font-size: 14px;
+}
+.topics {
+    font-size: 14px;
+}
+.first-topic {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.culture {
+    background-color: rgb(236, 222, 222);
+    width: 60px;
+    border-radius: 20px;
+    text-align: center;
+padding: 0.8rem;
+}
+.sofwtare {
+    background-color: rgb(236, 222, 222);
+    width: 160px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.second-topics {
+    display: flex;
+align-items: baseline;
+gap: 10px;
+margin-top: 7px;
+}
+.chain {
+    background-color: rgb(236, 222, 222);
+    width: 120px;
+    text-align: center;
+    border-radius: 20px;
+}
+.entre {
+    background-color: rgb(236, 222, 222);
+        width: 150px;
+        text-align: center;
+        border-radius: 20px;
+}
+.third-topics {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-top: 7px;
+}
+.react {
+    background-color: rgb(236, 222, 222);
+    width: 70px;
+    text-align: center;
+    border-radius: 20px;
+}
+.coding {
+    background-color: rgb(236, 222, 222);
+    width: 80px;
+    text-align: center;
+    border-radius: 20px;
+}
+.edu {
+    background-color: rgb(236, 222, 222);
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+}
+.utenti3 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.utenti3 img {
+width: 35px;
+border-radius: 50%;
+}
+.follow-item {
+ border: solid;
+ width: 65px;
+ border-radius: 20px;
+height: 30px;
+ text-align: center;
+}
+.follow-item p {
+margin-top: 7px;
+font-size: 15px;
+}
+.follow-container {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+  
+}
+
